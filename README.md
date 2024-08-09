@@ -56,4 +56,3 @@ This script is provided for educational purposes only. Please use it responsibly
 - Break down complex tasks into smaller, well-defined functions for better readability and maintainability.
 - Add comments to explain the code's functionality.
 
-I hope this helps! Let me know if you have any questions about ethical and responsible automation practices using Python.
