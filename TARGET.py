@@ -32,7 +32,7 @@ except FileNotFoundError:
     exit()
 
 time.sleep(0.8)
-print ('\n\nCracking ')+user+' Now...'
+print ('\n\nCracking ')+user+(' Now...')
 
 time.sleep(1)
 print ('\nIM NOT RESPONSIBLE FOR ANY MISS USE XIDI\n')
