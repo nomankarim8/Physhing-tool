@@ -4,8 +4,8 @@
         
         #############################################
         #                                           #
-        #    Facebook BruteForce, by XP TRICKER     #
-        #    Facebook Contact:       Muhammad Ibtasam          #
+        #    Facebook BruteForce, by NK TRICKER     #
+        #    Facebook Contact: Noman Karim          #
         #                                           #
         #############################################
 
