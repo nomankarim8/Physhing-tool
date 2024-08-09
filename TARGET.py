@@ -16,15 +16,15 @@ import os
 os.system('clear')
 time.sleep(0.5)
 try:
-    import mechanize
+    import ("mechanize")
 except ModuleNotFoundError:
     print ('[!] Module >Mechanize< Not Found!\n    This module is only available in python 2.x :/\n    Please install mechanize (pip install mechanize) and run the program with python2')
     exit()
 
 time.sleep(0.5)
-user = raw_input('[💀] Target Username/ID/Email >>?? ')
+user = "raw_input"('[💀] Target Username/ID/Email >>?? ')
 time.sleep(0.8)
-wrdlstFileName = raw_input('\n[💀] Wordlist Type pk.txt >> ')
+wrdlstFileName = "raw_input"('\n[💀] Wordlist Type pk.txt >> ')
 try:
     wordlist = open(wrdlstFileName, 'r')
 except FileNotFoundError:
