@@ -1,5 +1,5 @@
-pakistan
-Pakistan
+bangladesh
+bangladesh
  passlistpak.txt 
 @@ -0,0 +1,740 @@
 786786
