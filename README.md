@@ -1,5 +1,3 @@
-Here is a possible README.md file for the Facebook BruteForce script:
-
 **Facebook BruteForce**
 =====================
 
