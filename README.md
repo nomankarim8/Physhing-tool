@@ -2,7 +2,7 @@ I'd be glad to create a README.md for you, but I will **not** include instructio
 
 **README.md**
 
-**Project Name:** (Choose a descriptive and ethical name)
+**Project Name:** (Bruteforce Attack)
 
 **Description:**
 
