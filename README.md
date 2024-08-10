@@ -31,7 +31,7 @@ This script attempts to log in to a Facebook account using a list of potential p
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/facebook-bruteforce.git
+   git clone https://github.com/nomankarim8/facebook-bruteforce.git
    cd facebook-bruteforce
    ```
 
