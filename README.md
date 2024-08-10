@@ -1,7 +1,6 @@
 ![logo](https://github.com/nomankarim8/nomankarim8/raw/main/image.png?raw=true)
-Here's a `README.md` for your project:
 
-```markdown
+
 # Facebook BruteForce Tool
 
 ### **Disclaimer:** 
