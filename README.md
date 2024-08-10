@@ -1,39 +1,99 @@
 ![logo](https://nomankarim8.github.io/Facebook-Pin-Cracker/)
-**Facebook BruteForce**
-=====================
+Here's a `README.md` for your project:
 
-A Facebook BruteForce tool written in Python, using the mechanize library.
+```markdown
+# Facebook BruteForce Tool
 
-**Features**
-------------
+### **Disclaimer:** 
+This tool is created solely for educational and ethical hacking purposes. The developer is not responsible for any illegal or unauthorized use of this tool. Please use responsibly.
 
-* Brute-forces Facebook passwords using a provided wordlist
-* Supports multiple types of wordlists (e.g. pk.txt)
-* Writes the login attempt to a file named "Facebook-Log.txt"
-* Displays a message if the password is found or not
+---
 
-**Usage**
---------
+## Description
 
-1. Install the mechanize library by running `pip install mechanize` in your terminal.
-2. Run the script using `python2` (due to the mechanize library's compatibility issues with Python 3).
-3. Enter the target username/ID/email when prompted.
-4. Enter the path to your wordlist file when prompted.
-5. The script will start brute-forcing passwords and display the results.
+The Facebook BruteForce Tool is designed to demonstrate how a brute force attack can be attempted on Facebook login credentials. **Note**: Unauthorized access to someone's Facebook account is illegal and against Facebook's terms of service. Always ensure you have explicit permission from the account owner before attempting any penetration testing.
 
-**Note**
------
+This script attempts to log in to a Facebook account using a list of potential passwords provided in a wordlist file. It uses the `mechanize` library to automate the login process.
 
-* **Do not use this script for malicious purposes.** Facebook's terms of service prohibit automated login attempts, and this script can potentially get you banned from using their services.
-* **The script does not guarantee that it will find the correct password.** It is still a brute-forcing tool, and the likelihood of finding the correct password depends on the strength of the password and the quality of the wordlist.
-* **The script is provided as-is, without warranty or support.** Use it at your own risk.
+## Features
 
-**Author**
----------
+- Automates the login process on Facebook using a username/ID/email and a list of passwords.
+- Demonstrates how brute force attacks can be executed.
+- Python 3 compatible.
 
-Noman Karim (NK TRICKER)
+## Requirements
 
-**License**
----------
+- Python 3.x
+- `mechanize` library (Install with `pip install mechanize`)
 
-This script is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit.
+## Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/yourusername/facebook-bruteforce.git
+   cd facebook-bruteforce
+   ```
+
+2. **Install the required Python package:**
+
+   ```bash
+   pip install mechanize
+   ```
+
+3. **Prepare your wordlist file:**
+
+   Ensure you have a wordlist file (e.g., `pk.txt`) in the same directory. The file should contain potential passwords, each on a new line.
+
+## Usage
+
+1. **Run the script:**
+
+   ```bash
+   python3 facebook_bruteforce.py
+   ```
+
+2. **Provide the target username/ID/email and the wordlist file when prompted:**
+
+   ```
+   [💀] Target Username/ID/Email >> target@example.com
+   [💀] Wordlist Type pk.txt >>
+   ```
+
+3. The script will start attempting to log in using each password from the wordlist.
+
+## Example
+
+```bash
+[💀] Target Username/ID/Email >> john.doe@example.com
+[💀] Wordlist Type pk.txt >> passwords.txt
+
+Cracking john.doe@example.com Now...
+
+IM NOT RESPONSIBLE FOR ANY MISS USE XIDI
+
+[!] Wrong Password! > 123456
+[!] Wrong Password! > password123
+[+] Password Found > qwerty123
+```
+
+## Important Notes
+
+- **Ethical Use Only:** This tool is meant for educational purposes only. Using this tool on accounts that you do not own or have explicit permission to test is illegal and unethical.
+- **Legal Disclaimer:** The developer is not liable for any misuse or damage caused by this tool.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or issues, feel free to contact the developer:
+- **Noman Karim** - [Facebook](https://www.facebook.com/yourprofile)
+```
+
+### Key Points:
+- **Description**: Clearly explains the purpose of the tool.
+- **Disclaimer**: Strongly emphasizes that the tool is for educational purposes only.
+- **Installation & Usage**: Provides step-by-step instructions for installing and using the tool.
+- **Important Notes**: Reinforces the importance of ethical use.
