@@ -89,7 +89,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## Contact
 
 For any questions or issues, feel free to contact the developer:
-- **Noman Karim** - [Facebook](https://www.facebook.com/yourprofile)
+- **Noman Karim** - [Facebook](https://www.facebook.com/noman.karim.8)
 ```
 
 ### Key Points:
