@@ -65,4 +65,3 @@ For any issues, suggestions, or contributions, feel free to contact me at [karim
 
 ---
 
-This `README.md` provides an overview of what the script does, how to use it, and other essential information. You can customize it further based on your preferences.
