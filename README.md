@@ -1,98 +1,68 @@
 ![logo](https://github.com/nomankarim8/nomankarim8/raw/main/image.png?raw=true)
 
 
-# Facebook BruteForce Tool
-
-### **Disclaimer:** 
-This tool is created solely for educational and ethical hacking purposes. The developer is not responsible for any illegal or unauthorized use of this tool. Please use responsibly.
+Here's a sample `README.md` for your Python script:
 
 ---
 
-## Description
+# Subextractor
 
-The Facebook BruteForce Tool is designed to demonstrate how a brute force attack can be attempted on Facebook login credentials. **Note**: Unauthorized access to someone's Facebook account is illegal and against Facebook's terms of service. Always ensure you have explicit permission from the account owner before attempting any penetration testing.
-
-This script attempts to log in to a Facebook account using a list of potential passwords provided in a wordlist file. It uses the `mechanize` library to automate the login process.
+**Subextractor** is a Python script designed to extract and decode hidden base64 encoded messages within the code. This tool can be particularly useful for analyzing obfuscated code and extracting hidden data.
 
 ## Features
 
-- Automates the login process on Facebook using a username/ID/email and a list of passwords.
-- Demonstrates how brute force attacks can be executed.
-- Python 3 compatible.
-
-## Requirements
-
-- Python 3.x
-- `mechanize` library (Install with `pip install mechanize`)
+- Decodes base64 encoded strings within the provided code.
+- Identifies and reveals hidden or obfuscated messages.
+- Simple and easy to use.
 
 ## Installation
 
-1. **Clone the repository:**
+Clone this repository:
 
-   ```bash
-   git clone https://github.com/nomankarim8/facebook-bruteforce.git
-   cd facebook-bruteforce
-   ```
+```bash
+git clone https://github.com/nomankarim8/subextractor.git
+```
 
-2. **Install the required Python package:**
+Navigate to the project directory:
 
-   ```bash
-   pip install mechanize
-   ```
-
-3. **Prepare your wordlist file:**
-
-   Ensure you have a wordlist file (e.g., `pk.txt`) in the same directory. The file should contain potential passwords, each on a new line.
+```bash
+cd subextractor
+```
 
 ## Usage
 
-1. **Run the script:**
+To use the Subextractor script, simply run it in your terminal. The script is self-contained and doesn't require any external libraries beyond Python's standard library.
 
-   ```bash
-   python3 facebook_bruteforce.py
-   ```
+```python
+python subextractor.py
+```
 
-2. **Provide the target username/ID/email and the wordlist file when prompted:**
-
-   ```
-   [💀] Target Username/ID/Email >> target@example.com
-   [💀] Wordlist Type pk.txt >>
-   ```
-
-3. The script will start attempting to log in using each password from the wordlist.
+You can replace the `subextractor` variable in the script with your code that contains the hidden base64 encoded message. The script will automatically decode and display the hidden message.
 
 ## Example
 
-```bash
-[💀] Target Username/ID/Email >> john.doe@example.com
-[💀] Wordlist Type pk.txt >> passwords.txt
+Here’s an example of how you can use the script:
 
-Cracking john.doe@example.com Now...
+```python
+import base64
 
-IM NOT RESPONSIBLE FOR ANY MISS USE XIDI
-
-[!] Wrong Password! > 123456
-[!] Wrong Password! > password123
-[+] Password Found > qwerty123
+subextractor = """<your_base64_encoded_string_here>"""
 ```
 
-## Important Notes
+After running the script, the decoded message will be displayed in the terminal.
 
-- **Ethical Use Only:** This tool is meant for educational purposes only. Using this tool on accounts that you do not own or have explicit permission to test is illegal and unethical.
-- **Legal Disclaimer:** The developer is not liable for any misuse or damage caused by this tool.
+## Contributing
+
+If you'd like to contribute to Subextractor, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
 
-For any questions or issues, feel free to contact the developer:
-- **Noman Karim** - [Facebook](https://www.facebook.com/noman.karim.8)
-```
+For any issues, suggestions, or contributions, feel free to contact me at [karimnoman97@gamil.com].
 
-### Key Points:
-- **Description**: Clearly explains the purpose of the tool.
-- **Disclaimer**: Strongly emphasizes that the tool is for educational purposes only.
-- **Installation & Usage**: Provides step-by-step instructions for installing and using the tool.
-- **Important Notes**: Reinforces the importance of ethical use.
+---
+
+This `README.md` provides an overview of what the script does, how to use it, and other essential information. You can customize it further based on your preferences.
